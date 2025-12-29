@@ -100,7 +100,3 @@ You can easily extend the application to add:
 ## License
 
 MIT License - feel free to use and modify as needed.
-
-## Credits
-
-Based on a Python/Streamlit implementation, reimagined as a native C++ application for maximum performance and portability.
