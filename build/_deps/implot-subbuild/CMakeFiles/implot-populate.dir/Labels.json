@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/andre/Desktop/bs_pricer_cpp/build/_deps/implot-subbuild/CMakeFiles/implot-populate"
+		},
+		{
+			"file" : "/Users/andre/Desktop/bs_pricer_cpp/build/_deps/implot-subbuild/CMakeFiles/implot-populate.rule"
+		},
+		{
+			"file" : "/Users/andre/Desktop/bs_pricer_cpp/build/_deps/implot-subbuild/CMakeFiles/implot-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/andre/Desktop/bs_pricer_cpp/build/_deps/implot-subbuild/implot-populate-prefix/src/implot-populate-stamp/implot-populate-build.rule"
+		},
+		{
+			"file" : "/Users/andre/Desktop/bs_pricer_cpp/build/_deps/implot-subbuild/implot-populate-prefix/src/implot-populate-stamp/implot-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/andre/Desktop/bs_pricer_cpp/build/_deps/implot-subbuild/implot-populate-prefix/src/implot-populate-stamp/implot-populate-download.rule"
+		},
+		{
+			"file" : "/Users/andre/Desktop/bs_pricer_cpp/build/_deps/implot-subbuild/implot-populate-prefix/src/implot-populate-stamp/implot-populate-install.rule"
+		},
+		{
+			"file" : "/Users/andre/Desktop/bs_pricer_cpp/build/_deps/implot-subbuild/implot-populate-prefix/src/implot-populate-stamp/implot-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/andre/Desktop/bs_pricer_cpp/build/_deps/implot-subbuild/implot-populate-prefix/src/implot-populate-stamp/implot-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/andre/Desktop/bs_pricer_cpp/build/_deps/implot-subbuild/implot-populate-prefix/src/implot-populate-stamp/implot-populate-test.rule"
+		},
+		{
+			"file" : "/Users/andre/Desktop/bs_pricer_cpp/build/_deps/implot-subbuild/implot-populate-prefix/src/implot-populate-stamp/implot-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"implot-populate"
+		],
+		"name" : "implot-populate"
+	}
+}
