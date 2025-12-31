@@ -2,6 +2,8 @@
 
 A fast, native implementation of the Black-Scholes option pricing model with interactive visualizations, built using Dear ImGui, ImPlot, and OpenGL.
 
+![alt text](https://github.com/AndrewJoshuaFreeman/bs-pde-pricer/blob/main/uiImage.png?raw=true)
+
 ## Features
 
 - **Real-time pricing** for European call and put options
