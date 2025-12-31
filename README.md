@@ -2,7 +2,7 @@
 
 A fast, native implementation of the Black-Scholes option pricing model with interactive visualizations, built using Dear ImGui, ImPlot, and OpenGL.
 
-![alt text](https://github.com/AndrewJoshuaFreeman/bs-pde-pricer/blob/main/assests/uiImage.png?raw=true)
+![alt text](https://github.com/AndrewJoshuaFreeman/bs-pde-pricer/blob/main/assets/uiImage.png?raw=true)
 
 ## Black–Scholes Heatmap Demo
 
