@@ -1,15 +1,15 @@
 # Black-Scholes Option Pricer (C++)
 
-A fast, native implementation of the Black-Scholes option pricing model with interactive visualizations, built using Dear ImGui, ImPlot, and OpenGL.
+A fast, native implementation of the Black Scholes option pricing model built with interactive visualizations using OpenGl and ImGUI. A continuation off of my previous Black Scholes mathematical simulator project, [see here](https://github.com/AndrewJoshuaFreeman/bs-pde-math-simulator)! Meant to show an elementary demonstration of the Black Scholes fomrula with European call options. Let me know if you have any questions!
 
 ![alt text](https://github.com/AndrewJoshuaFreeman/bs-pde-pricer/blob/main/assets/uiImage.png?raw=true)
 
-## Black–Scholes Heatmap Demo
+## Black Scholes Heatmap Demo
 
 ![ImGui Black–Scholes Heatmap](assets/demo.gif)
 
 
-## Features
+## features
 
 - **Real-time pricing** for European call and put options
 - **Interactive heatmaps** showing how option prices vary with spot price and volatility
@@ -17,13 +17,13 @@ A fast, native implementation of the Black-Scholes option pricing model with int
 - **Clean, responsive UI** with sidebar controls and metric cards
 - **Cross-platform** support (macOS, Linux, Windows)
 
-## Screenshots
+## screenshots
 
 The application displays:
-- Input parameters in a sidebar
-- Calculated option prices in colored metric cards
-- Interactive heatmaps for call and put prices across spot/volatility ranges
-- Real-time updates as you adjust parameters
+- input parameters in a sidebar
+- calculated option prices in colored metric cards
+- interactive heatmaps for call and put prices across spot/volatility ranges
+- real time updates as you adjust parameters
 
 ## Requirements
 
@@ -31,7 +31,7 @@ The application displays:
 - C++17 compiler(or later)
 - OpenGL 3.2+
 
-## Building
+## building
 
 ```bash
 mkdir -p build
@@ -39,58 +39,49 @@ cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j
 ```
 
-## Running
+## running
 
 ```bash
 ./build/bs_pricer
 ```
 
-## Dependencies
+## dependencies
 
-All dependencies are automatically fetched via CMake:
+all dependencies auto fetched via CMake:
 - **GLFW** (3.4) - Window management
 - **Dear ImGui** (1.90.9) - Immediate mode GUI
 - **ImPlot** (0.16) - Plotting and heatmaps
 
-## Usage
+## usage
 
-1. Adjust input parameters in the left sidebar:
-   - Current Asset Price (S)
-   - Strike Price (K)
-   - Time to Maturity (T)
-   - Volatility (σ)
-   - Risk-Free Rate (r)
+1. adjust input parameters in the left sidebar:
+   - current asset price (S)
+   - strike price (K)
+   - time to maturity (T)
+   - volatility (σ)
+   - risk free rate (r)
 
-2. Configure heatmap visualization:
-   - Grid size (resolution)
-   - Spot price range
-   - Volatility range
+2. configure heatmap visualization:
+   - grid size (resolution)
+   - spot price range
+   - volatility range
 
-3. View results:
-   - Call and put prices with color-coded cards
+3. view results:
+   - call and put prices with color coded cards
    - Greeks (Delta, Gamma)
-   - Interactive heatmaps showing price sensitivity
+   - interactive heatmaps showing price sensitivity
 
-## Platform Notes
+## platform notes
 
 ### macOS
-I use OpenGL 3.2 Core Profile with forward compatibility, which is the correct configuration for macOS, otherwise it will not work.
+I use OpenGL 3.2 Core Profile, which is the configfor macOS, it will not work otherwise.
 
 ### Linux/Windows
 The code automatically works on these platforms with OpenGL 3.2+
 
 ## Implementation Details
 
-- **Normal CDF/PDF**: Implemented using `std::erf` (standard library)
-- **Pricing model**: Standard Black-Scholes formula for European options
-- **Greeks**: Analytical formulas for Delta and Gamma
-- **Heatmaps**: Row-major format compatible with ImPlot
-
-## Customization
-
-You can easily extend the application to add:
-- More Greeks (Vega, Theta, Rho)
-- Implied volatility calculations
-- Payoff diagrams
-- Export functionality (CSV, PNG)
-- Additional option types (American, Asian, etc.)
+- **Normal CDF/PDF**: implemented using `std::erf` (standard library)
+- **Pricing model**: standard Black Scholes formula for European options
+- **Greeks**: analytical formulas for Delta and Gamma
+- **Heatmaps**: row major format compatible with ImPlot
